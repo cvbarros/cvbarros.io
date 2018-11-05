@@ -21,6 +21,8 @@ tags:
 - terraform-provider
 summary: CI/CD pipelines are a core aspect of modern software development delivery automation. In this post we'll examine how to use Terraform to codify pipelines and reap the benefits of _pipeline as code_ practice.
 ---
+_**This is a draft preview**_
+
 <!-- toc -->
 # Why Pipelines as Code? 
 
