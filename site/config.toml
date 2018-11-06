@@ -33,9 +33,9 @@ enableEmoji = true
 
 [author]
   name = "Carlos Vitor Barros"
-  bio = "\"Carioca\" overseas. <br/>Husband, father and clockwork construct creating more minions."
-  job = "Automator @ coolblue"
-  location = "Netherlands"
+  bio = "_\"Carioca\" overseas_. <br/>Husband, father and clockwork construct 🤖 creating more minions."
+  job = "Automator<br/>@ <a href=\"https://www.careersatcoolblue.com/\" target=\"_new\">coolblue.nl</a>"
+  location = "Rotterdam, Netherlands"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "carlosvitorbarros@gmail.com"
   twitter = "cvbarros"
@@ -142,7 +142,7 @@ enableEmoji = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 2
+  sidebarBehavior = 1
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
