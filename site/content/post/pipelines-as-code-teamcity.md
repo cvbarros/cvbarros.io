@@ -4,6 +4,7 @@ coverImage: /images/teamcity_pipelines.jpg
 shortUrl: http://bit.ly/2QkjvCw
 # thumbnailImage: /images/teamcity_pipelines.jpg
 thumbnailImagePosition: right
+comments: true
 autoThumbnailImage: no
 coverSize: partial
 metaAlignment: left
