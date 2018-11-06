@@ -1,0 +1,123 @@
+// Highlight.js custom theme
+// Follow guidelines
+// 1. Uncomment the block just below - remove `/*` and `*/`
+// 2. Fill `background`, `color`, `border-right-color` properties
+// with properties of `.hljs` CSS class of your theme
+// 3. Put your theme where it's indicated just below
+// 4. Remove `.hljs {...}` rules
+// 5. Remove `hljs-` of all CSS class name. E.g : `.comment` becomes `.comment`
+// 6. Comment line 61 (`'themes/tranquilpeak',`) of `source/_css/tranquilpeak.scss` file
+// 7. Run `grunt buildProd` to build the theme and see the result
+
+// Default code block
+pre > code {
+    background: #2b303b;
+    color: #c0c5ce;
+}
+
+// Default inline code
+code {
+    background-color: map-get($highlight, 'background');
+    color:      map-get($highlight-colors, cardinal);
+}
+
+// Tabbed code block tab
+// If your theme is dark then use a lighter background
+// to see clearly which tab is active
+.codeblock--tabbed figcaption .tab.active {
+    background: #2b303b;
+    color: #c0c5ce;
+}
+
+// highlight code block
+figure.highlight,
+.codeblock {
+    background: #2b303b;
+    color: #c0c5ce;
+
+    figcaption {
+        background: #2b303b;
+        color: #c0c5ce;
+    }
+    .gutter {
+        background: #2b303b;
+        border-right-color: #2b303b;
+        .line {
+            color: #c0c5ce;
+        }
+    }
+    /* Ocean Dark Theme */
+    /* https://github.com/gavsiu */
+    /* Original theme - https://github.com/chriskempson/base16 */
+
+    /* Ocean Comment */
+    .comment,
+    .quote {
+    color: #65737e;
+    }
+
+    /* Ocean Red */
+    .variable,
+    .template-variable,
+    .tag,
+    .name,
+    .selector-id,
+    .selector-class,
+    .regexp,
+    .deletion {
+    color: #bf616a;
+    }
+
+    /* Ocean Orange */
+    .number,
+    .built_in,
+    .builtin-name,
+    .literal,
+    .type,
+    .params,
+    .meta,
+    .link {
+    color: #d08770;
+    }
+
+    /* Ocean Yellow */
+    .attribute {
+    color: #ebcb8b;
+    }
+
+    /* Ocean Green */
+    .string,
+    .symbol,
+    .bullet,
+    .addition {
+    color: #a3be8c;
+    }
+
+    /* Ocean Blue */
+    .title,
+    .section {
+    color: #8fa1b3;
+    }
+
+    /* Ocean Purple */
+    .keyword,
+    .selector-tag {
+    color: #b48ead;
+    }
+
+    .hljs {
+    display: block;
+    overflow-x: auto;
+    background: #2b303b;
+    color: #c0c5ce;
+    padding: 0.5em;
+    }
+
+    .emphasis {
+    font-style: italic;
+    }
+
+    .strong {
+    font-weight: bold;
+    }
+}

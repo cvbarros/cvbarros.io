@@ -1,0 +1,112 @@
+// Highlight.js custom theme
+// Follow guidelines
+// 1. Uncomment the block just below - remove `/*` and `*/`
+// 2. Fill `background`, `color`, `border-right-color` properties
+// with properties of `.hljs` CSS class of your theme
+// 3. Put your theme where it's indicated just below
+// 4. Remove `.hljs {...}` rules
+// 5. Remove `hljs-` of all CSS class name. E.g : `.comment` becomes `.comment`
+// 6. Comment line 61 (`'themes/tranquilpeak',`) of `source/_css/tranquilpeak.scss` file
+// 7. Run `grunt buildProd` to build the theme and see the result
+
+// Default code block
+pre > code {
+    background: #272822;
+    color: #ddd;
+}
+
+// Default inline code
+code {
+    background-color: #272822;
+}
+
+// Tabbed code block tab
+// If your theme is dark then use a lighter background
+// to see clearly which tab is active
+.codeblock--tabbed figcaption .tab.active {
+    background: #272822;
+    color: #ddd;
+}
+
+// highlight code block
+figure.highlight,
+.codeblock {
+    background: #272822;
+    color: #ddd;
+
+    figcaption {
+        background: #272822;
+        color: #ddd;
+    }
+    .gutter {
+        background: #272822;
+        border-right-color: #272822;
+        .line {
+            color: #ddd;
+        }
+    }
+    
+    /*
+Monokai style - ported by Luigi Maselli - http://grigio.org
+*/
+
+  .tag,
+  .keyword,
+  .selector-tag,
+  .literal,
+  .strong,
+  .name {
+    color: #f92672;
+  }
+  
+  .code {
+    color: #66d9ef;
+  }
+  
+  .class .title {
+    color: white;
+  }
+  
+  .attribute,
+  .symbol,
+  .regexp,
+  .link {
+    color: #bf79db;
+  }
+  
+  .string,
+  .bullet,
+  .subst,
+  .title,
+  .section,
+  .emphasis,
+  .type,
+  .built_in,
+  .builtin-name,
+  .selector-attr,
+  .selector-pseudo,
+  .addition,
+  .variable,
+  .template-tag,
+  .template-variable {
+    color: #a6e22e;
+  }
+  
+  .comment,
+  .quote,
+  .deletion,
+  .meta {
+    color: #75715e;
+  }
+  
+  .keyword,
+  .selector-tag,
+  .literal,
+  .doctag,
+  .title,
+  .section,
+  .type,
+  .selector-id {
+    font-weight: bold;
+  }
+}

@@ -18,7 +18,7 @@ defaultContentLanguage = "en-us"
 title = "cvbarros' Blog"
 theme = "hugo-tranquilpeak-theme"
 disqusShortname = "cvbarros"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-128678226-1"
 paginate = 7
 canonifyurls = true
 enableEmoji = true
@@ -33,9 +33,9 @@ enableEmoji = true
 
 [author]
   name = "Carlos Vitor Barros"
-  bio = "Software/Cloud Engineer Automating everything @ Coolblue NL"
-  job = "Senior Cloud Engineer"
-  location = "Netherlands"
+  bio = "_\"Carioca\" overseas_. <br/>Husband, father and clockwork construct 🤖 creating more minions."
+  job = "Automator<br/>@ <a href=\"https://www.careersatcoolblue.com/\" target=\"_new\">coolblue.nl</a>"
+  location = "Rotterdam, Netherlands"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "carlosvitorbarros@gmail.com"
   twitter = "cvbarros"
@@ -49,6 +49,12 @@ enableEmoji = true
   url = "/"
 [[menu.main]]
   weight = 2
+  identifier = "projects"
+  name = "Projects"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-gears\"></i>"
+  url = "/page/projects"  
+[[menu.main]]
+  weight = 3
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
@@ -136,7 +142,7 @@ enableEmoji = true
   #    large sidebar is swiped on all lower screens
   # 5: Display header bar on all screens and large sidebar is swiped on large screen
   # 6: Display header bar on all screens and medium sidebar is swiped
-  sidebarBehavior = 2
+  sidebarBehavior = 1
 
   # Your blog cover picture. I STRONGLY recommend you to use a CDN to speed up loading of pages.
   # There is many free CDN like Cloudinary or you can also use indirectly
@@ -144,7 +150,7 @@ enableEmoji = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image in folder `static/_images/` (development)  or in `source/assets/images/` if you can't or don't want to build the theme,
   # and use relative url : `your-image.png`
-  coverImage = "cover_blur.jpg"
+  coverImage = "cover_foto.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
@@ -192,12 +198,12 @@ enableEmoji = true
   [[params.sharingOptions]]
     name = "Facebook"
     icon = "fa-facebook-official"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s %s"
 
   [[params.sharingOptions]]
     name = "Twitter"
     icon = "fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+    url = "https://twitter.com/intent/tweet?text=%s %s from @cvbarros"
 
   [params.header.rightLink]
     class = ""
@@ -210,4 +216,4 @@ enableEmoji = true
 
   # Customize copyright value "© 2017 <CUSTOMIZATION>. All Rights Reserved"
   [params.footer]
-    copyright = "<a href=\"https://github.com/cvbarros\">Carlos Vitor Barros</a>. Built with <a href=\"https://gohugo.io\">Hugo</a> and <a href=\"https://github.com/kakawait/hugo-tranquilpeak-theme\">Tranquilpeak</a> theme"
+    copyright = "<a href=\"https://github.com/cvbarros\">Carlos Vitor Barros</a>. Built with <a href=\"https://gohugo.io\">Hugo</a> and <a href=\"https://github.com/kakawait/hugo-tranquilpeak-theme\">Tranquilpeak</a> theme.<br/>Cover photo by <a href=\"https://www.flickr.com/photos/riotur\">Alexandre Macieira - Riotur</a>"
