@@ -71,7 +71,7 @@ At first, I've tried auto-generating a Golang client for TeamCity's API by using
 
 Since there was no other usable open-source Golang SDK for TeamCity, I had to write one, considering the use cases I had in mind for the provider. You can [find the code for this project here](https://github.com/cvbarros/go-teamcity-sdk). Experiences on that will serve as input for future writings.  
 
-Thus, I've created a custom provider that uses this SDK, which is availble at https://github.com/cvbarros/terraform-provider-teamcity.
+Thus, I've created a custom provider that uses this SDK, which is published at https://github.com/cvbarros/terraform-provider-teamcity.
 
 ## Modelling TeamCity Resources
 TeamCity base resources are _projects_, _vcs roots_ and _build configurations_, thus were the starting points for the provider implementation. A Terraform configuration for a very simple pipeline, that performs only one build step and had one configuration would then look something like this:
