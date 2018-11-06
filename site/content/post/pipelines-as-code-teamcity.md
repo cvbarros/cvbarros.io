@@ -1,12 +1,12 @@
 ---
 title: "Building Builds - TeamCity Pipelines as Code using Terraform"
 coverImage: /images/teamcity_pipelines.jpg
+shortUrl: http://bit.ly/2QkjvCw
 # thumbnailImage: /images/teamcity_pipelines.jpg
 thumbnailImagePosition: right
 autoThumbnailImage: no
 coverSize: partial
 metaAlignment: left
-draft: true
 date: 2018-11-09
 keywords:
 - teamcity
@@ -159,5 +159,19 @@ Representing fully this workflow in Terraform, would require the following resou
 And the result in TeamCity interface:
 
 {{< image classes="fancybox fig-100 clear" src="/images/created_pipeline.png" title="complete pipeline">}}
+
+### Show me the code!
+All the code for the previous example can be found on <a href="https://github.com/cvbarros/terraform-teamcity-samples"><i class="fa fa-lg fa-github"></i></a>
+
+# Conclusion
+Having your pipelines defined in code can greatly improve the quality, consistency, reproduceability and maintainability. It creates the right atmosphere for a team to automate the automation. Heck, you can even have the build server build it's own pipelines that were defined in code. How :sunglasses: is that?  
+This practice allows a whole different class of improvements such as code generation, linting, testing and code reuse, that wouldn't be possible otherwise, if you created your builds manually.  
+For next posts we`ll dive into how to compose pipeline features by creating abstractions and how to automate several systems together using Terraform.
+
+Happy automating!
+
+_Feedback for this article? Use the comments below.  
+Want to receive updates?_ RSS <a class="sidebar-button-link" href="/index.xml"><i class="sidebar-button-icon fa fa-lg fa-rss"></i></a>  
+{{< twitter_followme >}} 
 
 

@@ -198,12 +198,12 @@ enableEmoji = true
   [[params.sharingOptions]]
     name = "Facebook"
     icon = "fa-facebook-official"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+    url = "https://www.facebook.com/sharer/sharer.php?u=%s %s"
 
   [[params.sharingOptions]]
     name = "Twitter"
     icon = "fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
+    url = "https://twitter.com/intent/tweet?text=%s %s from @cvbarros"
 
   [params.header.rightLink]
     class = ""
