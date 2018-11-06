@@ -72,7 +72,7 @@ Since there was no other usable open-source Golang SDK for TeamCity, I had to wr
 ## Modelling TeamCity Resources
 TeamCity base resources are _projects_, _vcs roots_ and _build configurations_, thus were the starting points for the provider implementation. A Terraform configuration for a very simple pipeline, that performs only one build step and had one configuration would then look something like this:
 
-{{< codeblock "sample configuration" "terraform" >}}
+{{< codeblock "sample.tf" "terraform" >}}
 resource "teamcity_project" "project" {
   name = "Simple Project"
 }
@@ -110,7 +110,7 @@ resource "teamcity_build_config" "pull_request" {
     id  = "${teamcity_vcs_root_git.project_vcs_root.id}"
   }
 }
-{{< /codeblock >}}
+{{< / codeblock >}}
 
 This sample code manages a _Project_, named "Simple Project", a Git _VCS Root_ with some basic settings and a _Build Configuration_ that has a simple powershell step invoking a build script place into the repository root folder.  
 However, let's examine some interesting aspects covered in this basic example.  
@@ -173,5 +173,3 @@ Happy automating!
 _Feedback for this article? Use the comments below.  
 Want to receive updates?_ RSS <a class="sidebar-button-link" href="/index.xml"><i class="sidebar-button-icon fa fa-lg fa-rss"></i></a>  
 {{< twitter_followme >}} 
-
-
