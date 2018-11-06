@@ -69,7 +69,9 @@ After deciding that Terraform was the way forward, the challenge was to write a 
 
 At first, I've tried auto-generating a Golang client for TeamCity's API by using [go-swagger](https://goswagger.io/). That resulted in a very unfriendly API, leaking a lot of peculiarities of TeamCity's API to the provider implementation, turning convoluted code to maintain.  
 
-Since there was no other usable open-source Golang SDK for TeamCity, I had to write one, considering the use cases I had in mind for the provider. You can [find the code for this project here](https://github.com/cvbarros/go-teamcity-sdk). Experiences on that will serve as input for future writings.
+Since there was no other usable open-source Golang SDK for TeamCity, I had to write one, considering the use cases I had in mind for the provider. You can [find the code for this project here](https://github.com/cvbarros/go-teamcity-sdk). Experiences on that will serve as input for future writings.  
+
+Thus, I've created a custom provider that uses this SDK, which is availble at https://github.com/cvbarros/terraform-provider-teamcity.
 
 ## Modelling TeamCity Resources
 TeamCity base resources are _projects_, _vcs roots_ and _build configurations_, thus were the starting points for the provider implementation. A Terraform configuration for a very simple pipeline, that performs only one build step and had one configuration would then look something like this:
@@ -167,10 +169,11 @@ All the code for the previous example can be found on <a href="https://github.co
 
 # Conclusion
 Having your pipelines defined in code can greatly improve the quality, consistency, reproducibility and maintainability. It creates the right atmosphere for a team to automate the automation. Heck, you can even have the server build its own pipelines that were defined in code. How :sunglasses: is that?
-
 This practice allows a whole different class of improvements such as linting, testing, code generation and reuse, that wouldn't be possible otherwise.  
+For next posts we`ll dive into how to compose pipeline features by creating abstractions and how to automate several systems together using Terraform.  
 
-For next posts we`ll dive into how to compose pipeline features by creating abstractions and how to automate several systems together using Terraform.
+<a href="https://github.com/cvbarros/terraform-provider-teamcity" target="_new">The provider project is avaiable in <i class="fa fa-lg fa-github"></i></a>.  
+Feel free to contribute by opening issues, pull requests and giving feedback!
 
 Happy automating!
 

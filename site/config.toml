@@ -20,8 +20,11 @@ theme = "hugo-tranquilpeak-theme"
 disqusShortname = "cvbarros"
 googleAnalytics = "UA-128678226-1"
 paginate = 7
-canonifyurls = true
+#canonifyurls = true
 enableEmoji = true
+
+[blackfriday]
+hrefTargetBlank = true
 
 [permalinks]
   post = "/:year/:month/:slug/"
