@@ -7,7 +7,7 @@ thumbnailImagePosition: right
 autoThumbnailImage: no
 coverSize: partial
 metaAlignment: left
-date: 2018-11-09
+date: 2018-11-06
 keywords:
 - teamcity
 - terraform
