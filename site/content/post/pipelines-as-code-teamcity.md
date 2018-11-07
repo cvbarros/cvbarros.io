@@ -25,7 +25,12 @@ summary: CI/CD pipelines are a core aspect of modern software development delive
 ---
 
 <!-- toc -->
-# Why Pipelines as Code? 
+# Introduction
+
+## Terraform Provider
+This post talks about the reasoning behind the project [terraform-provider-teamcity](https://github.com/cvbarros/terraform-provider-teamcity). We'll be looking on how to apply pipelines as code for Jetbrains' TeamCity CI server using Terraform.
+
+## Why Pipelines as Code? 
 
 Nowadays, _Continuous Integration_ is a common practice for most software development workflows. The idea of having code being managed, tested and deployed from a central location is mainstream enough that most can take it for granted. This pratice's maturity allowed the evolution of _Continuous Delivery_ and _Continuous Deployment_, which states that a given repository is always kep in a state stable enough to be shipped to production, at any time.  
 
