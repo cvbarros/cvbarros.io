@@ -7,10 +7,10 @@ showActions:    false
 #thumbnailImage: //example.com/image.jpg
 ---
 <hr/>
-# go-teamcity-sdk  
+# go-teamcity 
 > A Golang client for Jetbrains TeamCity REST API.  
 
-<i class="fa fa-github"></i> https://github.com/cvbarros/go-teamcity-sdk
+<i class="fa fa-github"></i> https://github.com/cvbarros/go-teamcity
 
 # terraform-provider-teamcity
 > A custom provider for [Terraform](https://www.terraform.io) to configure Jetbrains TeamCity in code.  
