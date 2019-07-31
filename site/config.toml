@@ -37,7 +37,7 @@ hrefTargetBlank = true
 [author]
   name = "Carlos Vitor Barros"
   bio = "_\"Carioca\" overseas_. <br/>Husband, father and clockwork construct 🤖 creating more minions."
-  job = "Automator<br/>@ <a href=\"https://www.careersatcoolblue.com/\" target=\"_new\">coolblue.nl</a>"
+  job = "Automator<br/>@ <a href=\"https://www.datadoghq.com\" target=\"_new\">Datadog</a>"
   location = "Rotterdam, Netherlands"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   gravatarEmail = "carlosvitorbarros@gmail.com"
