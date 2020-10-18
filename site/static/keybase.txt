@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/cvbarros
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://cvbarros.io
+  * I am cvbarros (https://keybase.io/cvbarros) on keybase.
+  * I have a public key with fingerprint 9749 E357 FCB2 A7A2 2E26  2D4F 1C1E FDDE BABA 2CD1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "010125e1aaf56d449401732d269846ff7d5dc7f3aad7f073118ad5a6207f7d13c9ad0a",
+      "fingerprint": "9749e357fcb2a7a22e262d4f1c1efddebaba2cd1",
+      "host": "keybase.io",
+      "key_id": "1c1efddebaba2cd1",
+      "kid": "010125e1aaf56d449401732d269846ff7d5dc7f3aad7f073118ad5a6207f7d13c9ad0a",
+      "uid": "2f5433faa9ae00fc933009942c495719",
+      "username": "cvbarros"
+    },
+    "service": {
+      "hostname": "cvbarros.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1603023169,
+  "expire_in": 157680000,
+  "prev": "865704df3b065d56de6279eaa53cef7b2c4fc81e969a9fb45b81caa06862ea99",
+  "seqno": 22,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMM8AnicrVJ9TFVlHL6QZNxBytVyM7npEfnQC5zvc88NFEUc8rEMZVRCl/ec8x44
+IPdc7rl8j4+iZBjVEBkL8m4EsSGOsJlNsLHLAEvcJeq20WwVoA5yoEK4DBydQ/VP
+68/ef969v9/zPO/z/PYbDnxKp/fZYXzyU3+/acJnzN1SpLM2YAcrEE4WyhBLBZIP
+1y94SoCK05ovCYgFQTEUwymIASBStECSLIliDIELOM2aSVoUGYESeEYkABAYEWUI
+DDMDgQI0jjJqDyN4FggoQEyIKNlyoMPukGxOVZZlSBYSFCPyHA4YgOMQp3GBFDEe
+g6IgQA5wAOcFTCXmyorGUM1xQIFRkqzW1Id13d5/4P9n30XrcrhIkQQhAsACiKIi
+zxIEirIsifMkSzEYqwEV6LCBAqii+WIOOByyglSaELVaLPFQG6yW5F+Iv+LYHbJT
+5uVTaiPX6bQrFo3oLLNryBLIWf/WsHKSTVDHqDKKoUORZBtiwVQk75Q0UYxGCRQn
+MJo1IbDULjmgVdIQFEObUfVo/8BiVdJMUwxKCiLBoTQlqOOBNM6wEACK4KHIcGoo
+kTdjkKVZwIocSXFmjAcApc00DgGrhVVgoU1GLDiu+gQ5qqYi5diAs8gBkcohd+YG
+nY9e97Sfr7ZfOr3/5n+2Lj5j09qhwfRnjDfY5ENd2zum9qc8XythkVE3W1zumDOp
+ewfbAx5eX7s01qGMhjmfu/z9xoY3Oj2buanM0Nb4iJMDt4/GjI4QqyVoePWRV5te
+rklQ7kf3R+3bVpXvdb1Q7/Z67dONr781+1L9id75ix012xKGPy/4o74sskeuadxa
+mzYc0jKi3x7Y6p6zLVGfdevKeoYN6NdTgYtNvyXeS03ZGZZVe6B59XZT3ZWBiqJd
+DyrzjbWZ45bS3Tt/7pvdk71ctoRW90l5j7wZY98202k9G/xjd/mOZoccq/tk7XGM
+t/Ndw1JrgfRL7/zWGChONE+UX8uYNlr7AhaKzu/4dPnudWKil3OTMwvdeeEr72+q
+uhEcNzmwEhT5+JWk4NbCQtevZMQBvzcfxkGj57uIqItorL7rKnWFbfMcPzhWOXls
+ce5qu+HLXIPhyFTWJTx8xpT1Ts2LlzfGfviNnyc64UfvB+D0+Xmfew3jceOGMP/q
+pFJLetJsbkPOXFubK21f0Fyot+9aJzeZuGpwxrc/y854relbHIsJuwfvDJ27fzY5
+JzfhxIyS0c+XhJq6ln73CJFBt1x72Lc/Du/e+wV9+G5w4v7lzHRX5Mn3QjpvfeWq
+00+TF46Xwv62AO6HC42+0ms34ZbykQeryWdWyp+k3JnGDi9kZwxFt360+sj/qJwa
+XWUk8loq+wyGPwFFpMAg
+=8ES1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cvbarros
+
+==================================================================
